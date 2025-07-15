@@ -7,5 +7,8 @@ public class ClearerGhostsDataGenerator implements DataGeneratorEntrypoint {
 	@Override
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
 
+
+
+
 	}
 }

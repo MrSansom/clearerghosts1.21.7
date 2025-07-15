@@ -6,5 +6,6 @@ public class ClearerGhostsClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
 
+
     }
 }

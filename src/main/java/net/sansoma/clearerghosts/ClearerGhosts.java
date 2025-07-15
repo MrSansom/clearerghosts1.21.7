@@ -20,5 +20,15 @@ public class ClearerGhosts implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+
+		int a = 654311423 >>> 24;
+		int c = 267155712 >>> 24;
+		int b = -1 >>> 24;
+		LOGGER.info("\n\n\n\n\n\n " + a);
+		LOGGER.info("\n\n\n\n\n\n " + b);
+		LOGGER.info("\n\n\n\n\n\n " + c);
+		LOGGER.info("\n\n\n\n\n\n " + (a*b/255));
+
+
 	}
 }
