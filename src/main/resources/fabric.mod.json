@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "clearerghosts",
+	"version": "${version}",
+	"name": "clearerGhosts",
+	"description": "Simple mod to change the default transparency percentage of transparent entities",
+	"authors": [
+		"Sansoma"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/clearerghosts/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.sansoma.clearerghosts.ClearerGhosts"
+		],
+		"fabric-datagen": [
+			"net.sansoma.clearerghosts.ClearerGhostsDataGenerator"
+		],
+		"Client": [
+			"net.sansoma.clearerghosts.ClearerGhostsClient"
+		]
+	},
+	"mixins": [
+		"clearerghosts.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.7",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
