@@ -10,6 +10,6 @@ public class ClearerGhostMixin {
 
     @ModifyConstant(method = "render", constant = @Constant(intValue = 654311423))
     private int injected(int value) {
-        return 267155712;
+        return value * 4 ;
     }
 }
